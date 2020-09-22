@@ -62,6 +62,7 @@ int main(){
         long long count = q.size();
 
         while(count--){
+            /* Will contain the nodes that will get visited in this iteration */
             set<long long>deleteNodes;
             long long present = q.front();
             q.pop();
